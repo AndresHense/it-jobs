@@ -1,0 +1,22 @@
+.btn{
+	color:#fff;
+	padding:0.6rem;
+	border: 1px solid #ccc;
+	transition: all 0.7s;
+}
+
+.btn:hover{
+	background:$primary-color;
+	border: 1px solid $primary-color;
+}
+
+.btn-reverse{
+	background:$primary-color;
+	border: 1px solid $primary-color;
+}
+
+
+.btn-reverse{
+	background:$primary-color;
+	border: 1px solid $primary-hover-color;
+}

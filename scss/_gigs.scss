@@ -1,0 +1,22 @@
+.gig {
+  background: $bg-color;
+  border-bottom: 4px solid $primary-color;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--box-shadow);
+}
+
+.gig ul {
+  list-style: none;
+  display: flex;
+}
+
+.gig li {
+  margin-right: 0.5rem;
+  padding: 0.6rem;
+}
+
+.gig .tech span {
+  color: $primary-color;
+}

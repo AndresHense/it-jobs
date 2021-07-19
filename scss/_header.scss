@@ -1,0 +1,28 @@
+
+header {
+		
+	nav{
+		ul{
+			display:flex;
+		}
+		li{
+			margin:0 1rem;
+		}
+	}
+
+	.inner{
+		justify-content:space-between;
+		font-size:1.2rem;
+		display:flex;
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		align-items:center;
+		padding: 1rem 4rem;
+		background-color:#333;
+		border-bottom: 4px solid $primary-color;
+		position: relative;
+		box-shadow: var(--box-shadow);
+	}
+}
